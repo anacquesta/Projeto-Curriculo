@@ -265,10 +265,27 @@ body {
     color: var(--cor3);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 940px) {
     .container {
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .sobre .box {
+        display: inherit;
+        margin: 20px 0;
+    }
+    
+    .sobre .box .ano_exp {
+        min-width: 200px;
+    }
+
+    .habilidades .box {
+        position: relative;
+        width: 100%;
+        display: inherit;
+        justify-content: center;
+        align-items: center;
     }
 
 }
